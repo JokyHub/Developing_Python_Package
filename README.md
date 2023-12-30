@@ -1,2 +1,4 @@
 # Developing_Python_Package
-How to develop python packages
+This repo shows How to develop python packages. You may want to ask why do we need to write packages ?
+
+
