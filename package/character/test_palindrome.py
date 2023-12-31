@@ -5,5 +5,4 @@
 from package.character import palindrome
 import numpy as np
 def test_palindrome():
-
     np.testing.assert_equal(palindrome("aa")==True, True)
