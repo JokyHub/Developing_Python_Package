@@ -3,7 +3,7 @@
 # Should also be incorporated using Continiuous Integration at the root of the Github Repo.
 
 from package.character import palindrome
-
+import numpy as np
 def test_palindrome():
 
-    return palindrome("aa")==True
+    np.testing.assert_equal(palindrome("aa"), True)
